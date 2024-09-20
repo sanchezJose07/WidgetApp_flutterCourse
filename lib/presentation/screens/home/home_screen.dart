@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/config/menu/menu_items.dart';
 
 // Clase para la pantalla principal de la aplicacion
 class HomeScreen extends StatelessWidget {
@@ -21,9 +22,14 @@ class _HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      // itemCount: appMenuItems.length,
+      itemCount: appMenuItems.length,
       itemBuilder: (context, index) {
-        
+      final menuItem = appMenuItems[index];
+
+      return ListTile( 
+        title: Text( menuItem.title ),
+        subtitle: Text(menuItem.subtitle),
+          );
       }
     );
   }
