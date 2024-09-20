@@ -14,7 +14,6 @@ import 'package:flutter/material.dart';
     Colors.amber,
 ];
 
-
 // Clase para el tema de la aplicacion
 class AppTheme {
   final int selectedColor;
@@ -29,7 +28,7 @@ class AppTheme {
       useMaterial3: true,
       colorSchemeSeed: colorsList[selectedColor],
       appBarTheme: const AppBarTheme(
-        centerTitle: true
+        centerTitle: false
       )
     );
   }
