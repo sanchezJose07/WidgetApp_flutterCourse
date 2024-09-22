@@ -1,0 +1,9 @@
+CLONAR EL REPOSITORIO
+git clone https://github.com/usuario/repo.git
+cd DIRECION DEL REPOSITORIO
+
+LISTAR LAS RAMAS DISPONIBLES
+git branch -a
+
+CAMBIAR DE RAMAS
+git checkout <nombre-de-la-rama>

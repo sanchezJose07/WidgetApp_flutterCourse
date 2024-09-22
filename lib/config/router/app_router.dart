@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/presentation/screens/screens/screens.dart';
+import 'package:widgets_app/presentation/screens/screens.dart';
 
 
 //Rutas para las pantallas de la aplicacion
