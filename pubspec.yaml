@@ -31,6 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
+  flutter_vector_icons: ^2.0.0
   go_router: ^14.2.7
 
 dev_dependencies:
