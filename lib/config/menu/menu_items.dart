@@ -22,28 +22,49 @@ const appMenuItems = <MenuItems>[
     title: "Botones",
     subtitle: "Varios botones en flutter",
     link: "/buttons",
-    icon: Icons.smart_button_outlined,
+    icon: MaterialCommunityIcons.gesture_tap_button,
   ),
   
   MenuItems(
     title: "Tarjetas",
     subtitle: "Un contenedor estilizado",
     link: "/cards",
-    icon: MaterialCommunityIcons.credit_card_outline,
+    icon: MaterialCommunityIcons.cards,
   ),
   
   MenuItems(
     title: "ProgressIndicator", 
     subtitle: "Generales y controlador", 
     link: "/progress", 
-    icon: MaterialCommunityIcons.refresh_circle
+    icon: FontAwesome.refresh
     ),
 
     MenuItems(
       title: "StackBar y dialogos", 
       subtitle: "Indicadores en pantalla", 
       link: "/stackBar",
-      icon: MaterialCommunityIcons.inbox_multiple_outline
+      icon: Octicons.stack
+    ),
+
+    MenuItems(
+      title: 'Animated container', 
+      subtitle: 'Stateful widget animado', 
+      link: '/animated', 
+      icon: MaterialCommunityIcons.checkbox_marked_outline
+    ),
+
+    MenuItems(
+      title: 'UI Controls + Tiles', 
+      subtitle: 'Una serie de controles de Flutter', 
+      link: '/ui-controls', 
+      icon: FontAwesome5Brands.uikit
+    ),
+
+    MenuItems(
+      title: 'Introduccion a la aplicacion', 
+      subtitle: 'Pequeño tutorial introductorio', 
+      link: '/tutorial', 
+      icon: Feather.slack
     ),
 
 
