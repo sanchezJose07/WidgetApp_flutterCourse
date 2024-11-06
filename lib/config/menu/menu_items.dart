@@ -66,6 +66,12 @@ const appMenuItems = <MenuItems>[
       link: '/tutorial', 
       icon: Feather.slack
     ),
-
+    
+    MenuItems(
+      title: "InfiniteScroll y Pull", 
+      subtitle: 'Listas infinitas y pull to refresh', 
+      link: '/infinite', 
+      icon: Ionicons.infinite_sharp
+    )
 
 ];
